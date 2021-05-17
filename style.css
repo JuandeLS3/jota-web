@@ -278,7 +278,7 @@ ul {
 }
 
 .header-area-2 {
-	background-image: url('img/./jotadevs_3.jpg');
+	background-image: url('img/./jotadevs_home.jpg');
 	width: 100%;
 	height: 100vh;
 	overflow: hidden;
@@ -302,22 +302,6 @@ ul {
 	height: 100vh;
 	background-color: rgba(0, 0, 0, 0.7);
 	z-index: 11
-}
-
-.header-area-3 {
-	background-image: url('img/./jotadevs_1.jpg');
-	width: 100%;
-	height: 100vh;
-	overflow: hidden;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center
 }
 
 .header-area-3:before {
@@ -562,7 +546,7 @@ ul {
 /***************4. About Area CSS**************/
 .about-content {
 	padding: 120px 30px;
-	background-image: url(img/./about-content-bg.jpg);
+	/*background-image: url(img/./about-content-bg.jpg);*/
 	height: 100%;
 	background-position: 50% 0;
 	background-size: cover;
@@ -570,7 +554,7 @@ ul {
 
 /*4.1 Personal Info*/
 .about-image {
-	background-image: url(img/./jotadevs_1.jpg);
+	background-image: url(img/./jotadevs_about.jpg);
 	height: 100%;
 	background-position: 50% 0;
 	background-size: cover;
@@ -944,7 +928,7 @@ ul {
 /***************8. Contact Area CSS**************/
 .contact-area {
 	padding: 120px 0;
-	background-image: url('img/./contact.jpg');
+	/*background-image: url('img/./contact.jpg');*/
 	background-position: center;
 }
 

@@ -11,42 +11,42 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 
+// Include images
+let img_src = [
+  'img/unity.png',
+  'img/drupal.png',
+  'img/csharp.png'
+];
+
+// Name images included
+let image_type = img_src.map(function(cuurentEl, index){ return "image" + index});
+
 particlesJS('particles-js',
-  
+
   {
     "particles": {
       "number": {
-        "value": 30,
+        "value": 10,
         "density": {
           "enable": true,
-          "value_area": 800
+          "value_area": 500
         }
       },
       "color": {
         "value": "#e5e4e4"
       },
       "shape": {
-        "type": ["image"],
+        "type": image_type,
         "stroke": {
-          "width": 10,
+          "width": 40,
           "color": "#000000"
         },
         "polygon": {
-          "nb_sides": 5
+          "nb_sides": 4
         },
-        "image": {
-          "src": "img/drupal.png",
-          "width": 100,
-          "height": 100
-        },
-        "image2": {
-          "src": "img/unity.png",
-          "width": 100,
-          "height": 100
-        }
       },
       "opacity": {
-        "value": 0.5,
+        "value": 0.7,
         "random": false,
         "anim": {
           "enable": false,
@@ -56,7 +56,7 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 15,
+        "value": 20,
         "random": true,
         "anim": {
           "enable": false,
