@@ -1,208 +1,645 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>JotaWebNew!</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html lang="ZXX">
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Bienvenido</a></li>
-							<li><a href="#one">Quién soy</a></li>
-							<li><a href="#two">Qué hago</a></li>
-							<li><a href="#three">Contacto</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+<head>
+    <title>Tubex - Html Portfolio For Vlogger and Youtuber</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name=description content="">
+    <meta name=author content="YouTuber">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,900&display=swap" rel="stylesheet">
+    <!-- Magnific Popoup -->
+    <link rel="stylesheet" href="css/magnific-popup.min.css">
+    <!-- Animation CSS -->
+    <link href="css/aos.min.css" rel="stylesheet">
+    <link href="css/animate-headline.css" rel="stylesheet">
+    <!-- Owl Carousel CSS -->
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/owl.theme.default.min.css" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>JotaWeb</h1>
-							<p>¡Bienvenido a mi web creada a través de<a href="http://www.youtube.com/c/jotadevs" target="_blank"> este vídeo!</a><br />
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Canal de Youtube</a></li>
-							</ul>
-						</div>
-					</section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Desarrollo web</h2>
-									<p>Todo acerca del desarrollo web. </p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Saber más</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Desarrollo de videojuegos</h2>
-									<p>Estoy trabajando en My Champ, ¡disponible en verano de 2021 para móviles!</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Saber más</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Ya no se qué poner...</h2>
-									<p>Pero seguro que pones algo mejor que lo mío.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Saber más</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
+    <!--=========== Main Menu Area ===============-->
+    <div class="left-side-area">
+        <div class="sidemenu" id="sidebar">
+            <!-- profile-picture-->
+            <div class="profile">
+                <a href="#">
+                    <img src="img/profile.jpg" alt="">
+                </a>
+            </div>
+            <!--logo-->
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            <!-- menu-->
+            <nav>
+                <ul>
+                    <li><a class="current" href="#home" data-scroll-nav="0">home</a></li>
+                    <li><a href="#about" data-scroll-nav="1">about</a></li>
+                    <li><a href="#work" data-scroll-nav="2">work</a></li>
+                    <li><a href="#expertise" data-scroll-nav="3">expertise</a></li>
+                    <li><a href="#blog" data-scroll-nav="4">blog</a></li>
+                    <li><a href="#contact" data-scroll-nav="5">contact</a></li>
+                </ul>
+            </nav>
+            <!-- menu-social-->
+            <div class="social">
+                <ul>
+                    <li><a class="footer-socials" href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a class="footer-socials" href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a class="footer-socials" href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a class="footer-socials" href="#"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--=========== Main Header Area ===============-->
+    <div class="right-side-area">
+        <!-- mobile-menu-button-->
+        <div class="mobile-menu">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- logo-->
+                    <div class="mlogo">
+                        <a href="index.html"><img src="img/logo.png" alt=""></a>
+                    </div>
+                    <!-- toggle-button-->
+                    <div class="toggle">
+                        <i class="fas fa-bars" onclick="toggle_menu()"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- video-bg-->
+        <header id="home" data-scroll-index="0">
+            <div class="header-area-2 " id="particles-js">
+                <div class="intro-text">
+                    <!-- intro-heading-->
+                    <h1 class="cd-headline  clip">I <span class="cd-words-wrapper"><b class="is-visible">lead</b><b>love</b><b>kick</b></span> MY LIFE <span>in</span> MY <span>way</span></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, dolor sit amet<br> lorem ipsum dolor sit amet.. </p>
+                    <!-- about-button-->
+                    <div class="learnmore">
+                        <a href="#about" class="skill-btn">about me</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--=========== About Us Area ===============-->
+        <section id="about" data-scroll-index="1">
+            <div class="about-us-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- about-image-->
+                        <div class="col-xl-5 col-md-4 col-sm-12 col-xs-12 grid-p-left grid-p-right">
+                            <div class="about-image"></div>
+                        </div>
+                        <!-- about-image-mobile screen-->
+                        <div class=" col-sm-12 col-xs-12 d-block d-md-none grid-p-left grid-p-right">
+                            <div class="about-image"><img src="img/about.jpg" alt=""></div>
+                        </div>
+                        <div class="col-xl-7 col-md-8 col-sm-12 col-xs-12 grid-p-left grid-p-right">
+                            <div class="about-content">
+                                <!-- about-info-->
+                                <div class="personal-info">
+                                    <h2>- I <span>am</span> john doe</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nam consectetur a illo, non dolor. Ipsam dolore nihil unde, consequuntur perferendis ad voluptas placeat, illum vel veritatis numquam libero amet a excepturi atque eum quibusdam repudiandae repellendus sapiente iusto vitae! Ut animi in, a modi culpa vero dolores itaque necessitatibus repellendus assumenda neque. Sed, accusantium. Fugiat expedita rem culpa!</p>
+                                </div>
+                                <div class="general-info">
+                                    <!-- about-channel-->
+                                    <div class="channel-name">
+                                        <h4>MY CHANNEL</h4>
+                                        <h3>Brother<span>Hood</span></h3>
+                                        <a href="#">Subscribe</a>
+                                    </div>
+                                    <!-- about-suscribe-->
+                                    <div class="subscribe">
+                                        <h4>MY SUBSCRIBERS</h4>
+                                    </div>
+                                </div>
+                                <div class="count-area" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="1000">
+                                    <div class="row">
+                                        <!-- single-coutdown-->
+                                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                            <div class="single-count-area"> <span class="counter">9800</span><b>k</b>
+                                                <p>youtube</p>
+                                            </div>
+                                        </div>
+                                        <!-- single-coutdown-->
+                                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                            <div class="single-count-area"><span class="counter">7500</span><b>k</b>
+                                                <p>facebook</p>
+                                            </div>
+                                        </div>
+                                        <!-- single-coutdown-->
+                                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                            <div class="single-count-area"> <span class="counter">1590</span><b>k</b>
+                                                <p>instagram</p>
+                                            </div>
+                                        </div>
+                                        <!-- single-coutdown-->
+                                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                            <div class="single-count-area"> <span class="counter">3500</span><b>k</b>
+                                                <p>twitter</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=========== Work Area ===============-->
+        <section id="work" data-scroll-index="2">
+            <div class="my-work-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- LATEST VIDEOS-->
+                        <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="section-heading">
+                                <h3>LATEST <span>VIDEOS</span></h3>
+                            </div>
+                        </div>
+                        <div class="dot-list owl-carousel">
+                            <!-- single-work-->
+                            <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="single-work">
+                                    <img src="img/work/1.jpg" alt="">
+                                    <div class="work-text">
+                                        <p>Lorem ipsum dolor sit amet, Dolorem rosicing elit amet lorri sit amet!</p>
+                                    </div>
+                                    <div class="play-button">
+                                        <a href="https://www.youtube.com/watch?v=WNeLUngb-Xg" class="popup-youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single-work-->
+                            <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="single-work">
+                                    <img src="img/work/2.jpg" alt="">
+                                    <div class="work-text">
+                                        <p>Lorem ipsum dolor sit amet, Dolorem rosicing elit amet lorri sit amet!</p>
+                                    </div>
+                                    <div class="play-button">
+                                        <a href="https://www.youtube.com/watch?v=WNeLUngb-Xg" class="popup-youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single-work-->
+                            <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="single-work">
+                                    <img src="img/work/3.jpg" alt="">
+                                    <div class="work-text">
+                                        <p>Lorem ipsum dolor sit amet, Dolorem rosicing elit amet lorri sit amet!</p>
+                                    </div>
+                                    <div class="play-button">
+                                        <a href="https://www.youtube.com/watch?v=WNeLUngb-Xg" class="popup-youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single-work-->
+                            <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="single-work">
+                                    <img src="img/work/4.jpg" alt="">
+                                    <div class="work-text">
+                                        <p>Lorem ipsum dolor sit amet, Dolorem rosicing elit amet lorri sit amet!</p>
+                                    </div>
+                                    <div class="play-button">
+                                        <a href="https://www.youtube.com/watch?v=WNeLUngb-Xg" class="popup-youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single-work-->
+                            <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="single-work">
+                                    <img src="img/work/5.jpg" alt="">
+                                    <div class="work-text">
+                                        <p>Lorem ipsum dolor sit amet, Dolorem rosicing elit amet lorri sit amet!</p>
+                                    </div>
+                                    <div class="play-button">
+                                        <a href="https://www.youtube.com/watch?v=WNeLUngb-Xg" class="popup-youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single-work-->
+                            <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="single-work">
+                                    <img src="img/work/2.jpg" alt="">
+                                    <div class="work-text">
+                                        <p>Lorem ipsum dolor sit amet, Dolorem rosicing elit amet lorri sit amet!</p>
+                                    </div>
+                                    <div class="play-button">
+                                        <a href="https://www.youtube.com/watch?v=WNeLUngb-Xg" class="popup-youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single-work-->
+                            <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="single-work">
+                                    <img src="img/work/4.jpg" alt="">
+                                    <div class="work-text">
+                                        <p>Lorem ipsum dolor sit amet, Dolorem rosicing elit amet lorri sit amet!</p>
+                                    </div>
+                                    <div class="play-button">
+                                        <a href="https://www.youtube.com/watch?v=WNeLUngb-Xg" class="popup-youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FEATURED VIDEOS -->
+                    <div class="row">
+                        <!-- section heading-->
+                        <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="section-heading margin-top60">
+                                <h3>FEATURED <span>VIDEOS</span></h3>
+                            </div>
+                        </div>
+                        <div class="dot-list owl-carousel">
+                            <!-- single-work-->
+                            <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="single-work">
+                                    <img src="img/work/5.jpg" alt="">
+                                    <div class="work-text">
+                                        <p>Lorem ipsum dolor sit amet, Dolorem rosicing elit amet lorri sit amet!</p>
+                                    </div>
+                                    <div class="play-button">
+                                        <a href="https://www.youtube.com/watch?v=WNeLUngb-Xg" class="popup-youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single-work-->
+                            <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="single-work">
+                                    <img src="img/work/4.jpg" alt="">
+                                    <div class="work-text">
+                                        <p>Lorem ipsum dolor sit amet, Dolorem rosicing elit amet lorri sit amet!</p>
+                                    </div>
+                                    <div class="play-button">
+                                        <a href="https://www.youtube.com/watch?v=WNeLUngb-Xg" class="popup-youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single-work-->
+                            <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="single-work">
+                                    <img src="img/work/2.jpg" alt="">
+                                    <div class="work-text">
+                                        <p>Lorem ipsum dolor sit amet, Dolorem rosicing elit amet lorri sit amet!</p>
+                                    </div>
+                                    <div class="play-button">
+                                        <a href="https://www.youtube.com/watch?v=WNeLUngb-Xg" class="popup-youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single-work-->
+                            <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="single-work">
+                                    <img src="img/work/3.jpg" alt="">
+                                    <div class="work-text">
+                                        <p>Lorem ipsum dolor sit amet, Dolorem rosicing elit amet lorri sit amet!</p>
+                                    </div>
+                                    <div class="play-button">
+                                        <a href="https://www.youtube.com/watch?v=WNeLUngb-Xg" class="popup-youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single-work-->
+                            <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="single-work">
+                                    <img src="img/work/1.jpg" alt="">
+                                    <div class="work-text">
+                                        <p>Lorem ipsum dolor sit amet, Dolorem rosicing elit amet lorri sit amet!</p>
+                                    </div>
+                                    <div class="play-button">
+                                        <a href="https://www.youtube.com/watch?v=WNeLUngb-Xg" class="popup-youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single-work-->
+                            <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="single-work">
+                                    <img src="img/work/3.jpg" alt="">
+                                    <div class="work-text">
+                                        <p>Lorem ipsum dolor sit amet, Dolorem rosicing elit amet lorri sit amet!</p>
+                                    </div>
+                                    <div class="play-button">
+                                        <a href="https://www.youtube.com/watch?v=WNeLUngb-Xg" class="popup-youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single-work-->
+                            <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="single-work">
+                                    <img src="img/work/4.jpg" alt="">
+                                    <div class="work-text">
+                                        <p>Lorem ipsum dolor sit amet, Dolorem rosicing elit amet lorri sit amet!</p>
+                                    </div>
+                                    <div class="play-button">
+                                        <a href="https://www.youtube.com/watch?v=WNeLUngb-Xg" class="popup-youtube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=========== Expertise Area ===============-->
+        <section id="expertise" data-scroll-index="3">
+            <div class="expertise-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- section heading-->
+                        <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="expertise-heading-section">
+                                <div class="section-heading" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="1000">
+                                    <h3>My <span>experties</span> On</h3>
+                                </div>
+                                <div class="section-description">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                                        Totam maxime delectus delectus dolorum!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- single-expertise-->
+                        <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 margin-bot30">
+                            <div class="single-expertise">
+                                <img src="img/expertise/1.png" alt="">
+                                <h4>video making</h4>
+                                <p>Lorem ipsum dolor mauris lectus,a ultricies nisi
+                                    nec elementum quam. mauris lectus,
+                                    a ultricies nisi.</p>
+                            </div>
+                        </div>
+                        <!-- single-expertise-->
+                        <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 margin-bot30">
+                            <div class="single-expertise">
+                                <img src="img/expertise/2.png" alt="">
+                                <h4>2d animation</h4>
+                                <p>Lorem ipsum dolor mauris lectus,a ultricies nisi
+                                    nec elementum quam. mauris lectus,
+                                    a ultricies nisi.</p>
+                            </div>
+                        </div>
+                        <!-- single-expertise-->
+                        <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 small-mobile-margin">
+                            <div class="single-expertise">
+                                <img src="img/expertise/3.png" alt="">
+                                <h4>3d animation</h4>
+                                <p>Lorem ipsum dolor mauris lectus,a ultricies nisi
+                                    nec elementum quam. mauris lectus,
+                                    a ultricies nisi.</p>
+                            </div>
+                        </div>
+                        <!-- single-expertise-->
+                        <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12">
+                            <div class="single-expertise">
+                                <img src="img/expertise/4.png" alt="">
+                                <h4>content maker</h4>
+                                <p>Lorem ipsum dolor mauris lectus,a ultricies nisi
+                                    nec elementum quam. mauris lectus,
+                                    a ultricies nisi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=========== Blog Area ===============-->
+        <section id="blog" data-scroll-index="4">
+            <div class="blog-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- section heading-->
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                            <div class="blog-heading-section">
+                                <div class="section-heading" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="1000">
+                                    <h3>Read <span>my</span> blogs</h3>
+                                </div>
+                                <div class="section-description">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                                        Totam maxime delectus delectus dolorum!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog-button-->
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                            <div class="blog-button">
+                                <ul class="blog-filter">
+                                    <li class="active"><a href="#" data-filter="*"> All</a></li>
+                                    <li class=""><a href="#" data-filter=".cat1">Lifestyle</a></li>
+                                    <li class=""><a href="#" data-filter=".cat2">Music</a></li>
+                                    <li><a href="#" data-filter=".cat3">Adventure</a></li>
+                                    <li><a href="#" data-filter=".cat4">TechWorld</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row grid">
+                        <!-- single-blog-->
+                        <div class="grid-item cat2">
+                            <div class="single-blog">
+                                <img src="img/blog/3.jpg" alt="">
+                                <div class="blog-text">
+                                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, animi!</h4>
+                                    <div class="readmore-btn">
+                                        <a href="single-blog.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single-blog-->
+                        <div class="grid-item cat1">
+                            <div class="single-blog">
+                                <img src="img/blog/2.jpg" alt="">
+                                <div class="blog-text">
+                                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, animi!</h4>
+                                    <div class="readmore-btn">
+                                        <a href="single-blog.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single-blog-->
+                        <div class="grid-item cat4">
+                            <div class="single-blog">
+                                <img src="img/blog/1.jpg" alt="">
+                                <div class="blog-text">
+                                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, animi!</h4>
+                                    <div class="readmore-btn">
+                                        <a href="single-blog.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single-blog-->
+                        <div class="grid-item cat3">
+                            <div class="single-blog">
+                                <img src="img/blog/4.jpg" alt="">
+                                <div class="blog-text">
+                                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, animi!</h4>
+                                    <div class="readmore-btn">
+                                        <a href="single-blog.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single-blog-->
+                        <div class="grid-item cat1">
+                            <div class="single-blog">
+                                <img src="img/blog/7.jpg" alt="">
+                                <div class="blog-text">
+                                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, animi!</h4>
+                                    <div class="readmore-btn">
+                                        <a href="single-blog.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single-blog-->
+                        <div class="grid-item cat3">
+                            <div class="single-blog">
+                                <img src="img/blog/5.jpg" alt="">
+                                <div class="blog-text">
+                                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, animi!</h4>
+                                    <div class="readmore-btn">
+                                        <a href="single-blog.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single-blog-->
+                        <div class="grid-item cat2">
+                            <div class="single-blog">
+                                <img src="img/blog/6.jpg" alt="">
+                                <div class="blog-text">
+                                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, animi!</h4>
+                                    <div class="readmore-btn">
+                                        <a href="single-blog.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single-blog-->
+                        <div class=" grid-item cat1">
+                            <div class="single-blog">
+                                <img src="img/blog/8.jpg" alt="">
+                                <div class="blog-text">
+                                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, animi!</h4>
+                                    <div class="readmore-btn">
+                                        <a href="single-blog.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=========== Contact Area ===============-->
+        <section id="contact" data-scroll-index="5">
+            <div class="contact-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- section heading-->
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                            <div class="contact-heading-section">
+                                <div class="section-heading" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="1000">
+                                    <h3>contact <span>with</span> me</h3>
+                                </div>
+                                <div class="section-description">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                                        Totam maxime delectus delectus dolorum!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- contact-form-->
+                    <div class="row justify-content-center">
+                        <div class="col-xl-8">
+                            <div class="contact-form">
+                                <form action="mail.php" method="POST">
+                                    <div class="field-separate">
+                                        <input type="text" name="name" placeholder="Enter your name">
+                                    </div>
+                                    <div><input type="email" name="email" placeholder="Enter your email"></div>
+                                    <textarea rows="1" cols="1" name="message" placeholder="Enter your message"></textarea>
+                                    <input type="submit" name="submit" value="submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- footer Social-->
+                    <div class="row justify-content-center">
+                        <div class="footer-social">
+                            <h5>find me on</h5>
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="img/social/2.png" alt=""></a>
+                                    <a href="#"><img src="img/social/3.png" alt=""></a>
+                                    <a href="#"><img src="img/social/1.png" alt=""></a>
+                                    <a href="#"><img src="img/social/4.png" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=========== Footer Area ===============-->
+        <footer>
+            <p><a href="terms-services.html">terms of service </a> &nbsp;|&nbsp; @copyright by <a href="http://enventer.com/">enventer</a></p>
+        </footer>
+    </div>
+    <!-- Jquery JS -->
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Counter Js -->
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/counterup.min.js"></script>
+    <!-- Animation Js -->
+    <script src="js/aos.min.js"></script>
+    <script src="js/animate-headline.js"></script>
+    <script src="js/backgroundMove.js"></script>
+    <!-- Particle Js -->
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+    <!-- Owl Carousel Js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Scroll Js -->
+    <script src="js/scrollUp.js"></script>
+    <script src="js/scrollspy.min.js"></script>
+    <!-- Magnific-popup Js -->
+    <script src="js/magnific-popup.min.js"></script>
+    <!-- Masonry-grid Js -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!-- Main Js -->
+    <script src="js/main.js"></script>
+</body>
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-							</div>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>
-						</div>
-					</section>
-
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-							<div class="split style1">
-								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Address</h3>
-											<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
-											USA</span>
-										</li>
-										<li>
-											<h3>Email</h3>
-											<a href="#">user@untitled.tld</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
