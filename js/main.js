@@ -12,12 +12,6 @@
 	------------------------------ */
 	AOS.init();
 	/*----------------------------
-    Counter Js Active
-    ------------------------------ */
-	$('.counter').counterUp({
-		delay: 10,
-		time: 1000
-	});
 	/*----------------------------
 	Scroll Active JS
 	----------------------------*/
@@ -67,29 +61,6 @@
 		fixedContentPos: false
 	});
 
-	/* ---------------------------------------------
-	  Blog filtering
-	 --------------------------------------------- */
-
-	$('.container-fluid').imagesLoaded(function () {
-		var $grid = $('.grid').isotope({
-			itemSelector: '.grid-item',
-			percentPosition: true,
-			layoutMode: 'masonry',
-			masonry: {
-				columnWidth: '.grid-item'
-			}
-		})
-
-		$('.blog-filter').on('click', 'a', function (e) {
-			e.preventDefault();
-			$(this).parent().addClass('active').siblings().removeClass('active');
-			var filterValue = $(this).attr('data-filter');
-			$grid.isotope({
-				filter: filterValue
-			});
-		});
-	});
 	/*----------------------------
 	Smooth Scrool
 	------------------------------ */
@@ -111,21 +82,6 @@
 		scrollSpeed: 1000,
 		animation: 'fade'
 	});
-	/*-----------------
-	Preload
-	-----------------*/
-	/*$(document).on('ready', function () {
-		var count = 0;
-		var counter = setInterval(function () {
-			if (count < 101) {
-				$('.count').text(count + '%');
-				$('.loader').css('width', count + '%');
-				count++
-			} else {
-				clearInterval(counter);
-			}
-		});
-	});*/
     	/*-------------
 	Move Background
 	-------------------- */
