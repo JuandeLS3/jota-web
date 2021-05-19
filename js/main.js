@@ -48,6 +48,21 @@
 			}
 		}
 	});
+	$('.dot-list-2').owlCarousel({
+		loop: false,
+		autoplayHoverPause: true,
+		autoplay: false,
+		dots: true,
+		smartSpeed: 1000,
+		responsive: {
+			0: {
+				items: 1
+			},
+			600: {
+				items: 2
+			}
+		}
+	});
 
 
 	/*----------------------------
