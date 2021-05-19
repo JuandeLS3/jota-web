@@ -1120,6 +1120,12 @@ footer a:hover {
 	padding: 100px 25px 50px 100px;
 }
 
+.blog-paragraph ul li {
+	color: #ccc;
+	text-align: justify;
+	font-size: 20px;
+}
+
 .blog-paragraph p {
 	color: #ccc;
 	text-align: justify
