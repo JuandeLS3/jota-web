@@ -48,6 +48,7 @@
 			}
 		}
 	});
+
 	$('.dot-list-2').owlCarousel({
 		loop: false,
 		autoplayHoverPause: true,
