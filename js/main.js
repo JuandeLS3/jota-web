@@ -31,14 +31,14 @@
 		loop: true,
 		autoplayHoverPause: true,
 		autoplay: true,
-		dots: true,
+		dots: false,
 		smartSpeed: 1000,
 		responsive: {
 			0: {
 				items: 1
 			},
 			600: {
-				items: 2
+				items: 1
 			},
 			1000: {
 				items: 3
@@ -53,14 +53,20 @@
 		loop: false,
 		autoplayHoverPause: true,
 		autoplay: false,
-		dots: true,
+		dots: false,
 		smartSpeed: 1000,
 		responsive: {
 			0: {
 				items: 1
 			},
 			600: {
-				items: 2
+				items: 1
+			},
+			1000: {
+				items: 3
+			},
+			1369: {
+				items: 4
 			}
 		}
 	});
