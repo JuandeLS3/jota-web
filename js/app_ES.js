@@ -13,11 +13,11 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 // Include images
 let img_src = [
-  'img/firebase.png',
-  'img/unity.png',
-  'img/unity.png',
-  'img/drupal.png',
-  'img/csharp.png'
+  '../img/firebase.png',
+  '../img/unity.png',
+  '../img/unity.png',
+  '../img/drupal.png',
+  '../img/csharp.png'
 ];
 
 // Name images included
