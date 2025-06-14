@@ -548,6 +548,31 @@ ul {
 	color: #ff3434
 }
 
+.language {
+	position: absolute;
+	bottom: 80px;
+	left: 0px;
+	right: 0;
+	text-align: center;
+}
+
+.language a {
+	color: #969696;
+}
+
+.language ul li {
+	display: inline-block;
+	margin-right: 8px
+}
+
+.language ul li a:hover {
+	color: #ff3434
+}
+
+.language ul li:last-child {
+	margin-right: 0
+}
+
 /***************4. About Area CSS**************/
 .about-content {
 	padding: 120px 30px;
