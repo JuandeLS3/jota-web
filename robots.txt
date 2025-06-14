@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://juanmeron.com/sitemap.xml
