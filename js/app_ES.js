@@ -13,11 +13,10 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 // Include images
 let img_src = [
-  '../img/firebase.png',
-  '../img/unity.png',
+  //'../img/youtube.png',
   '../img/unity.png',
   '../img/drupal.png',
-  '../img/csharp.png'
+  '../img/youtube.png'
 ];
 
 // Name images included
@@ -28,7 +27,7 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 20,
+        "value": 10,
         "density": {
           "enable": true,
           "value_area": 500
