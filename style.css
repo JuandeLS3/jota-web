@@ -349,7 +349,7 @@ ul {
 
 .intro-text > span {
 	text-transform: uppercase;
-	font-size: 26px;
+	font-size: 42px;
 	color: #fff !important;
 	margin-bottom: 10px !important;
 	font-weight: 900;
@@ -693,7 +693,12 @@ ul {
 /***************5. Work Area CSS***************/
 .my-work-area {
 	background-color: #0f0f0f;
-	padding: 120px 0
+	padding: 60px 0
+}
+
+.my-brand-area {
+	background-color: #0f0f0f;
+	padding: 20px 0
 }
 
 .single-work {
